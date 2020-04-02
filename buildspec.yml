@@ -1,0 +1,9 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "install phase is done"
+  build:
+    commands:
+      - echo "build phase is done"
