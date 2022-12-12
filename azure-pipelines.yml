@@ -11,9 +11,9 @@ trigger:
 
 resources:
   repositories:
-  - repository: cluster-sbx-test1
+  - repository: mytestrepo
     type: github
-    name: Contoso/CommonTools
+    name: RChepurkin/mytestrepo
     endpoint: manual_github.com_RChepurkin
 
 
@@ -30,4 +30,5 @@ steps:
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
+
   displayName: 'Run a multi-line script'
