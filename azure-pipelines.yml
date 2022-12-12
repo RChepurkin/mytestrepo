@@ -14,7 +14,7 @@ resources:
   - repository: mytestrepo
     type: github
     name: RChepurkin/mytestrepo
-    endpoint: terraform_github.com_RChepurkin
+    endpoint: manual_github.com_RChepurkin
 
 pr: none
 
