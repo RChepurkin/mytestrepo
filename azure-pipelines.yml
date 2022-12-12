@@ -9,6 +9,15 @@ trigger:
     include:
     - master
 
+resources:
+  repositories:
+  - repository: RChepurkin/mytestrepo
+    type: github
+    name: Contoso/CommonTools
+    endpoint: manual_github.com_RChepurkin
+
+
+
 pr: none
 
 pool:
