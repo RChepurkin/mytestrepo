@@ -11,7 +11,7 @@ trigger:
 
 resources:
   repositories:
-  - repository: RChepurkin/mytestrepo
+  - repository: cluster-sbx-test1
     type: github
     name: Contoso/CommonTools
     endpoint: manual_github.com_RChepurkin
